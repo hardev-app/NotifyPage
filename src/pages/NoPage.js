@@ -1,5 +1,9 @@
 const NoPage = () => {
-    return <h1>404</h1>;
-  };
+    return(
+      <div className='container'>
+        <h2>404</h2>
+      </div>
+    );
+  }
   
   export default NoPage;
