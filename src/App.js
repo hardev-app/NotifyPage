@@ -1,26 +1,24 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-
-import TermsAndConditions from './pages/TermsAndConditions';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import NoPage from "./pages/NoPage";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./routes/Layout";
+import Home from "./routes/Home";
+import TermsAndConditions from './routes/TermsAndConditions';
+import PrivacyPolicy from './routes/PrivacyPolicy';
+import NoPage from "./routes/NoPage";
 import './App.css';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path="terms" element={<TermsAndConditions />} />
           <Route path="privacy" element={<PrivacyPolicy />} />
           <Route path="*" element={<NoPage />} />
-        </Route>
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 
