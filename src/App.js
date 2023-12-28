@@ -8,6 +8,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
+      path: "/",
       element: <Layout />,
       errorElement: <NoPage />,
       children: routes
