@@ -1,16 +1,16 @@
-import { NavLink } from "react-router-dom"
-import "../styles/Header.css"
+import { Link } from "react-router-dom"
 import PathConstants from "../routes/pathConstants";
+import "../styles/Header.css"
 
 const Header = () => {  
     return (
         <header>
             <div className="header-div">
-                <h1 className="title"><NavLink to={PathConstants.HOME}>Home</NavLink></h1>
+                <h1 className="title"><Link to={PathConstants.HOME}>Home</Link></h1>
                 <nav className="navbar">
                     <ul className="nav-list">
-                        <li className="nav-item"><NavLink to={PathConstants.PRIVACY}>Política de Privacidad</NavLink></li>
-                        <li className="nav-item"><NavLink to={PathConstants.TERMS}>Términos y Condiciones</NavLink></li>
+                        <li className="nav-item"><Link to={PathConstants.PRIVACY}>Política de Privacidad</Link></li>
+                        <li className="nav-item"><Link to={PathConstants.TERMS}>Términos y Condiciones</Link></li>
                     </ul>
                 </nav>
             </div>
