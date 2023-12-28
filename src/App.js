@@ -1,8 +1,9 @@
-import './App.css';
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import routes from "./routes"
 import Layout from "./components/Layout"
 import NoPage from "./pages/NoPage";
+import './App.css';
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
   ])
 
   return (
-    <RouterProvider router={router} />
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
   );
 }
 
