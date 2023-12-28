@@ -5,9 +5,19 @@ const PrivacyPolicy = React.lazy(() => import("../pages/PrivacyPolicy"))
 const TermsAndConditions = React.lazy(() => import("../pages/TermsAndConditions"))
 
 const routes = [
-    { index: true, path: PathConstants.HOME, element: <Home /> },
-    { path: PathConstants.PRIVACY, element: <PrivacyPolicy /> },
-    { path: PathConstants.TERMS, element: <TermsAndConditions /> },
+    { 
+        index: true, 
+        path: PathConstants.HOME, 
+        element: <Home /> 
+    },
+    { 
+        path: PathConstants.PRIVACY, 
+        element: <PrivacyPolicy /> 
+    },
+    { 
+        path: PathConstants.TERMS, 
+        element: <TermsAndConditions /> 
+    },
 ]
 
 export default routes

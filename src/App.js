@@ -9,6 +9,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/NotifyPage",
+      basename: "/NotifyPage",
       element: <Layout />,
       errorElement: <NoPage />,
       children: routes
