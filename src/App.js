@@ -1,4 +1,3 @@
-import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import routes from "./routes"
 import Layout from "./components/Layout"
@@ -9,7 +8,8 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/NotifyPage",
+      basename: "/NotifyPage",
       element: <Layout />,
       errorElement: <NoPage />,
       children: routes
@@ -17,9 +17,7 @@ function App() {
   ])
 
   return (
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
+      <RouterProvider router={router} />
   );
 }
 
