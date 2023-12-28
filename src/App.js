@@ -1,4 +1,7 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { 
+  //createBrowserRouter,
+  createHashRouter, 
+  RouterProvider } from "react-router-dom";
 import routes from "./routes"
 import Layout from "./components/Layout"
 import NoPage from "./pages/NoPage";
@@ -6,10 +9,10 @@ import './App.css';
 
 function App() {
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
-      path: "/NotifyPage",
-      basename: "/NotifyPage",
+      path: "/",
+      basename: "/",
       element: <Layout />,
       errorElement: <NoPage />,
       children: routes
