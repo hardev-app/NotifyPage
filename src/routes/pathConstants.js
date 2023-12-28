@@ -1,5 +1,5 @@
 const PathConstants = {
-    HOME: "/NotifyPage/",
+    HOME: "/NotifyPage",
     PRIVACY: "/NotifyPage/privacy",
     TERMS: "/NotifyPage/terms",
 }
