@@ -1,8 +1,8 @@
 import React from 'react';
-import '../index.css'; 
 import imgLogo from "../images/logo.png"
+import '../index.css'; 
 
-export default function TermsAndConditions() {
+const TermsAndConditions = () => {
   return (
     <div className='container'>
       <h2>TÉRMINOS Y CONDICIONES</h2>
@@ -36,4 +36,6 @@ export default function TermsAndConditions() {
       <img className='img' src={imgLogo} alt="Logo Notify Log" />
     </div>
   )
-}
+};
+
+export default TermsAndConditions;

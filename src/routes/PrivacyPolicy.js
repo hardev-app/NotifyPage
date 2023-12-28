@@ -1,8 +1,8 @@
 import React from 'react';
-import '../index.css'; 
 import imgLogo from "../images/logo.png"
+import '../index.css'; 
 
-export default function PrivacyPolicy() {
+const PrivacyPolicy = () => {
   return (
     <div className='container'>
       <h2>POLÍTICA DE PRIVACIDAD</h2>
@@ -22,4 +22,6 @@ export default function PrivacyPolicy() {
       <img className='img' src={imgLogo} alt="Logo Notify Log" />
     </div>
   )
-}
+};
+
+export default PrivacyPolicy;
