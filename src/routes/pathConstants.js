@@ -1,7 +1,7 @@
 const PathConstants = {
-    HOME: "/",
-    PRIVACY: "/privacy",
-    TERMS: "terms",
+    HOME: "/NotifyPage/",
+    PRIVACY: "/NotifyPage/privacy",
+    TERMS: "/NotifyPage/terms",
 }
 
 export default PathConstants
