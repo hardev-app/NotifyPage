@@ -2,7 +2,7 @@ main {
     min-height: calc(100vh - 162px);
 }
 main .container {
-    padding: 20px;
+    padding: 28px;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 100px;
