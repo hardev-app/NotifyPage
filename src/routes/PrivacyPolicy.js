@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
       <p>En esta Política de Privacidad se detallan aspectos relevantes sobre la recopilación y el manejo de la información del Usuario a través del funcionamiento <b>Notify Log</b> de <b>Hardev App</b>.
         Esta política está vinculada y sujeta a las Condiciones de Servicio de Hardev App. Al utilizar los servicios usted, acepta los términos establecidos en esta Política de Privacidad, así como en los Términos y Condiciones.</p>
 
-      <p><a href="https://hardev-app.github.io/NotifyPage/terms">Términos y Condiciones.</a></p>
+      <p><a href="https://www.hardev-app.com/terms">Términos y Condiciones.</a></p>
 
       <h3>Almacenamiento de Información</h3>
       <p>Los datos que se recopilan en la aplicación se almacenan de manera segura e interna en tu dispositivo móvil y no existe algún respaldo o publicación de la misma en alguna base de datos en línea. Así mismo, esta información no se le da acceso a otras aplicaciones de terceros.
