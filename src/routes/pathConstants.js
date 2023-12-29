@@ -1,6 +1,6 @@
 const PathConstants = {
     HOME: "/",
-    PRIVACY: "/privacy_policy",
+    PRIVACY: "/privacy",
     TERMS: "/terms",
 }
 
