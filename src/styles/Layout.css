@@ -5,7 +5,6 @@ main .container {
     padding: 28px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 100px;
 }
 main .container h2 {
     text-align: center;
@@ -23,4 +22,5 @@ main .container p {
 main .container .img {
     display: flex;
     margin: 0 auto;
+    width: 100%;
 }
