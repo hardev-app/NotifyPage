@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from "./Layout"
 import PathConstants from "../routes/pathConstants";
 import Home from "../routes/Home";
@@ -8,7 +8,7 @@ import TermsAndConditions from "../routes/TermsAndConditions";
 
 const App = () => {
   return (
-    <>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -17,7 +17,7 @@ const App = () => {
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
