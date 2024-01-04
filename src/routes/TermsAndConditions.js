@@ -3,36 +3,39 @@ import imgLogo from "../images/logo.png"
 
 const TermsAndConditions = () => {
   return (
-    <div className='container'>
-      <h2>TÉRMINOS Y CONDICIONES</h2>
-      
-      <h3>Condiciones Generales</h3>
-      <p>Al hacer uso de está aplicación, usted ratifica su aceptación de los términos de uso aquí presentados y se compromete a respetarlos.
-      En caso de descargar la aplicación, se requerirá su aceptación de los términos establecidos de forma inmediata antes de su uso como usuario final de la aplicación.
-      En el caso de no aceptar estas condiciones de uso, se le recomienda abstenerse de utilizar la aplicación.</p>
-
-      <h3>Limitaciones sobre la Responsabilidad</h3>
-      <p>Declinamos cualquier responsabilidad por daños resultantes de un uso indebido del sistema. 
-        No asumimos responsabilidad alguna por costos, inconvenientes, pérdidas o daños ocasionados por interrupciones o fallas en la prestación de servicios o instalaciones, o en el acceso a nuestra aplicación, cuando dichas fallas sean resultado de circunstancias que se denominan fuera de nuestro control. 
-        En caso de que un evento fuera de nuestro control afecte el cumplimiento de de las funciones dentro de la aplicación, dichas obligaciones se ajustarán durante el plazo y/o al final del tiempo que dure el evento fuera de nuestro control. 
-        En tal caso, no asumimos responsabilidad alguna frente a usted por las consecuencias de cualquier incumplimiento.</p>
-
-      <h3>Modificaciones</h3>
-      <p>Nos reservamos el derecho de revisar y ajustar los términos y condiciones de uso en cualquier momento, realizando modificaciones de forma pertinente. 
-        Consulte constantemente los posibles cambios, ya que son obligatorios para el uso de esta aplicación.</p>
-
-      <h3>Limitaciones de Uso</h3>
-      <p>Solo está autorizado el uso de la aplicación con fines legítimos, y se le prohíbe el uso en caso de:
-        <ol>
-          <li><b>Contra la ley</b>: No está permitido utilizar la aplicación de manera que infrinja cualquier ley o regulación local, nacional o internacional aplicable, así como los términos de cualquier acuerdo entre usted y la aplicación.</li>
-          <li><b>Actividades ilegales o fraudulentas</b>: No se permite el uso de la aplicación con propósitos o fines ilegales o fraudulentos.</li>
-          <li><b>Perjudicar a menores</b>: Queda estrictamente prohibido utilizar la aplicación con la intención de perjudicar o intentar perjudicar a menores de cualquier manera.</li>
-        </ol>
-        Cualquier uso no autorizado de la aplicación con fines contrarios a estos términos será objeto de medidas apropiadas y puede dar lugar a la terminación del uso de la aplicación.</p>
-
-      <p>Actualización: 5 de Diciembre 2023</p>
-
-      <img className='img' src={imgLogo} alt="Logo Notify Log" />
+    <div className='page'>
+      <div className='header'>
+        <div className='container'>
+          <p className='title'>Terms and Conditions for Notify Log</p>
+        </div>
+      </div>
+      <div className='translations-content-container'>
+        <div className='container'>
+          <h1>TERMS AND CONDITIONS</h1>
+          <p>Last updated: December 30, 2023</p>
+          <h2>General conditions</h2>
+          <p>By using this application, you ratify your acceptance of the terms of use presented here and agree to respect them. If you download the application, your acceptance of the established terms will be required immediately prior to use as an end user of the application. If you do not accept these conditions of use, you are recommended to refrain from using the application.</p>
+          <h2>Limitations on Liability</h2>
+          <p>We decline any responsibility for damages resulting from improper use of the system. We accept no liability for costs, inconvenience, loss or damage caused by interruptions or failures in the provision of services or facilities, or in access to our application, where such failures are the result of circumstances beyond our control. In the event that an event outside our control affects the performance of functions within the application, such obligations will be adjusted during the term and/or at the end of the duration of the event outside our control. In such case, we have no liability to you for the consequences of any failure to comply.</p>
+          <h2>Modifications</h2>
+          <p>We reserve the right to review and adjust the terms and conditions of use at any time, making modifications as appropriate. Constantly check for possible changes, as they are mandatory for the use of this application.</p>
+          <h2>Limitations of Use</h2>
+          <p>The use of the application is only authorized for legitimate purposes, and use is prohibited in case of:</p>
+          <ul>
+            <li>
+              <p><b>Against the law</b>: You are not permitted to use the application in any way that violates any applicable local, national or international law or regulation, as well as the terms of any agreement between you and the application.</p>
+            </li>
+            <li>
+              <p><b>Illegal or fraudulent activities</b>: Use of the application for illegal or fraudulent purposes or purposes is not permitted.</p>
+            </li>
+            <li>
+              <p><b>Harming minors</b>: It is strictly prohibited to use the application with the intention of harming or attempting to harm minors in any way.</p>
+            </li>
+          </ul>
+          <p>Any unauthorized use of the App for purposes inconsistent with these Terms will be subject to appropriate action and may result in termination of use of the App.</p>
+          <img className='img' src={imgLogo} alt="Logo Notify Log" />
+        </div>
+      </div>
     </div>
   )
 };

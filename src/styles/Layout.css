@@ -1,32 +1,69 @@
 main {
     min-height: calc(100vh - 162px);
 }
+main .page {
+    width: 100%;
+}
+main .header {
+    color: black;
+    padding: 18px 0;
+}
 main .container {
-    padding: 28px;
-    max-width: 1200px;
+    position: relative;
+    width: 90%;
+    max-width: 1024px;
     margin: 0 auto;
 }
+main .header .title {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+main .translations-content-container {
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+}
 main .container h1 {
-    text-align: center;
-    size: 28px;
-    padding-bottom: 20px;
-}
-main .container h2 {
-    size: 26px;
-    padding-bottom: 10px;
-}
-main .container h3 {
-    size: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
     padding-bottom: 8px;
 }
+main .container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 8px;
+}
+main .container h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 6px;
+}
 main .container h4 {
-    size: 18px;
-    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    padding-bottom: 2px;
 }
 main .container p {
     size: 16px;
-    text-align: justify;
     padding-bottom: 2px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+main .container ul {
+    display: block;
+    list-style-type: disc;
+}
+main .container li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 main .container .img {
     display: flex;

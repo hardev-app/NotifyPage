@@ -8,7 +8,7 @@ import "../styles/Layout.css"
 const Layout = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <main>  
                 <Suspense fallback={<Loader />}>
                     <Outlet />
