@@ -4,25 +4,25 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin: 0; padding: 0;
+    background-color: var(--color1);
 }
-
-.page-404 .title {
-    font-size: 36px;
-    margin-bottom: 20px;
+.page-404 h1 {
+    font-size: 46px;
+    margin-bottom: 2px;
+    color: var(--color4);
 }
-
-.not-found-message {
-    font-size: 18px;
-    color: #888;
+.page-404 p {
+    font-size: 28px;
+    color: var(--color5);
 }
-
 .back-to-home {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 50px;
+    font-size: 22px;
     text-decoration: none;
-    color: black;
+    color: var(--color5);
 }
-
 .back-to-home:hover {
+    color: var(--color4);
     text-decoration: underline;
 }
