@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ******************** Fonts ******************** */
 @font-face {
   font-family: 'Ubuntu';
@@ -12,8 +16,14 @@
   src: url('./fonts/Ubuntu-Regular.woff2') format('woff2');
 }  
 :root {
+  --section-sm: 760px;
+  --section-md: 992px;
+  --section-lg: 1280px;
+
   --main-top: 0rem;
   --main-bottom: 0rem;
+
+  --block-border-radius: 12px;
 
   --color1: #204b5e;
   --color2: #426b65;
@@ -22,7 +32,9 @@
   --color5: #fdfac7;
 
   --color-background: #ffffff;
-  --color-text: #000000;
+  --color-background-hober: #333;
+  --color-text: #1d1e20;
+  --color-block: #f6f5f4;
 
   --font-family: 'Ubuntu';
   --font-family-bold: 'Ubuntu-Bold';
@@ -144,23 +156,59 @@ strong {
   font-style: italic;
   color: var(--color4) !important;
 }
+article {
+  overflow: hidden;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+/* ******************** Container ******************** */
+.section-lg,
+.section-md,
+.section-sm {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: var(--section-sm);
+  max-width: 96%;
+}
+.section-md {
+  width: var(--section-md);
+}
+.section-lg {
+  width: var(--section-lg);
+}
+.section-full {
+  width: 100%;
+}
+.full-50 {
+  width: 50%;
+}
+@media (max-width: 1024px) {
+  
+}
+@media (max-width: 710px) {
+  .full-50 {
+    width: 100%;
+  }
+}
 /* ******************** Button CSS ******************** */
-/*.button {
+.button {
   display: inline-flex;
   font-family: var(--font-family-bold);
-  font-weight: 700;
+  font-weight: 800;
   font-size: 12px;
-  letter-spacing: 0px;
   line-height: 16px;
   letter-spacing: 2px;
   text-decoration: none !important;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 8px;
   cursor: pointer;
   justify-content: center;
-  padding: 16px 32px;
-  height: 48px;
+  padding: 12px 22px;
+  height: auto;
   text-align: center;
+  vertical-align: middle;
   white-space: nowrap;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -169,14 +217,13 @@ strong {
   transition: all 0.3s ease-in;
 }
 .button {
+  background-color: var(--color-text);
   margin: 15px auto;
-  width: 188px;
   border: 1px solid var(--color2);
-  color: var(--color8);
+  color: var(--color-background);
 }
 .button:hover {
-  background-color: var(--color8);
-  color: var(--color3) !important;
-  transform: scale(1.06);
-  box-shadow: 0px 8px 48px var(--color5);
-}*/
+  background-color: var(--color-background-hober);
+  color: var(--color5) !important;
+  transform: scale(1.02);
+}

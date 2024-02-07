@@ -1,0 +1,99 @@
+.title,
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 32px;
+    margin-top: 6px;
+}
+.subtitle {
+    flex-direction: column;
+    margin-top: 28px;
+}
+.subtitle .ask {
+    text-align: center;
+    font-size: 30px;
+}
+.subtitle ul {
+    list-style: disc;
+}
+.subtitle .list-item {
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.subtitle h5 {
+    text-align: center;
+    margin-top: 36px;
+}
+.subtitle .action {
+    text-align: center;
+    padding-top: 20px;
+}
+.content-presentation,
+.conten-step1,
+.conten-step2,
+.conten-step3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+}
+.conten-step1 img,
+.conten-step2 img,
+.conten-step3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--block-border-radius);
+    background-color: var(--color-block);
+    border: 2px solid var(--color-block);
+}
+.content-presentation .content-text,
+.step1-text,
+.step2-text,
+.step3-text {
+    padding: 16px;
+    margin: auto 0;
+}
+.content-presentation .content-text h3 { 
+    font-weight: 700;
+    padding-top: 55px;
+    color: var(--color-text);
+}
+.content-text h4 {
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.content-text p {
+    padding-top: 8px;
+}
+.content-presentation .content-text .action {
+    text-align: center;
+    padding-top: 28px;
+}
+.action a img {
+    width: 16px;
+    margin: 0 12px;
+}
+.content-image img {
+    width: 94%;
+    max-width: 100%;
+    margin: auto;
+}
+@media (max-width: 1024px) {
+    .content-presentation .content-text,
+    .content-presentation .content-image {
+        width: 100%;
+    }
+}
+@media (max-width: 710px) {
+    .content-presentation .content-text h3 { 
+        padding-top: 4px;
+    }
+    .content-presentation,
+    .conten-step2 {
+        flex-direction: column;
+    }
+    .conten-step1,
+    .conten-step3 {
+        flex-direction: column-reverse;
+    }
+}
