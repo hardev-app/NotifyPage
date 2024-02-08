@@ -1,3 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.section-canvas {
+    width: 100vw;
+    height: 100vh;
+}
+@media (max-width: 710px) {
+    .section-canvas {
+        width: 1079px;
+        height: 955px;
+    }   
+}
+.section-header {
+    position: absolute;
+    top: 15%;
+    text-align: start;
+    z-index: 2;
+}
 .title,
 .subtitle {
     display: flex;
@@ -8,7 +33,7 @@
 }
 .subtitle {
     flex-direction: column;
-    margin-top: 28px;
+    margin-top: 52px;
 }
 .subtitle .ask {
     text-align: center;
@@ -37,6 +62,7 @@
     flex-direction: row;
     margin-top: 48px;
 }
+.content-presentation .content-image img,
 .conten-step1 img,
 .conten-step2 img,
 .conten-step3 img {
@@ -73,6 +99,7 @@
     width: 16px;
     margin: 0 12px;
 }
+.content-presentation .content-image img,
 .content-image img {
     width: 94%;
     max-width: 100%;

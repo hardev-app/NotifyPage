@@ -30,8 +30,8 @@ const Header = () => {
                 </div>
 
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                    <a href={PathConstants.NOTIFYLOG} className="text-sm font-semibold leading-6 text-gray-900">
-                        Notify Log
+                    <a href={PathConstants.NOTIFYPUG} className="text-sm font-semibold leading-6 text-gray-900">
+                        NotifyPug
                     </a>
                 </Popover.Group>
 
@@ -57,8 +57,8 @@ const Header = () => {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">           
-                                <a href={PathConstants.NOTIFYLOG} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                                    Notify Log
+                                <a href={PathConstants.NOTIFYPUG} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                    NotifyPug
                                 </a>
                             </div>
                             <div className="py-6">
