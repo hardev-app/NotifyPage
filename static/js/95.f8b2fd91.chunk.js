@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkHardev_App=self.webpackChunkHardev_App||[]).push([[95],{95:(s,a,e)=>{e.r(a),e.d(a,{default:()=>n});var c=e(184);const n=()=>(0,c.jsxs)("div",{className:"container container-home",children:[(0,c.jsx)("div",{className:"canvas",children:(0,c.jsx)("canvas",{id:"canvas"})}),(0,c.jsx)("div",{className:"content",children:(0,c.jsx)("h1",{children:"HARDEV APP"})})]})}}]);
+//# sourceMappingURL=95.f8b2fd91.chunk.js.map
