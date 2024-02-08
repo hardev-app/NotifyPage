@@ -6,7 +6,7 @@ const TermsAndConditions = () => {
     <div className='page'>
       <div className='header'>
         <div className='container'>
-          <p className='title'>Terms and Conditions for Notify Log</p>
+          <p className='title'>Terms and Conditions for NotifyPug</p>
         </div>
       </div>
       <div className='translations-content-container'>
@@ -33,7 +33,7 @@ const TermsAndConditions = () => {
             </li>
           </ul>
           <p>Any unauthorized use of the App for purposes inconsistent with these Terms will be subject to appropriate action and may result in termination of use of the App.</p>
-          <img className='img' src={imgLogo} alt="Logo Notify Log" />
+          <img className='img' src={imgLogo} alt="Logo NotifyPug" />
         </div>
       </div>
     </div>

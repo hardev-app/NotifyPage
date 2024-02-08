@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
     <div className='page'>
       <div className='header'>
         <div className='container'>
-          <p className='title'>Privacy Policy for Notify Log</p>
+          <p className='title'>Privacy Policy for NotifyPug</p>
         </div>
       </div>
       <div className='translations-content-container'>
@@ -22,10 +22,10 @@ const PrivacyPolicy = () => {
           <p>For the purposes of this Privacy Policy:</p>
           <ul>
             <li>
-              <p><strong>Application</strong> refers to Notify Log, the software program provided by the Company.</p>
+              <p><strong>Application</strong> refers to NotifyPug, the software program provided by the Company.</p>
             </li>
             <li>
-              <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Notify Log.</p>
+              <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to NotifyPug.</p>
             </li>
             <li>
               <p><strong>Country</strong> refers to:  Mexico</p>
@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
             <li><p>By email: hardev.app@gmail.com</p></li>
           </ul>
 
-          <img className='img' src={imgLogo} alt="Logo Notify Log" />
+          <img className='img' src={imgLogo} alt="Logo NotifyPug" />
         </div>
       </div>
     </div>
