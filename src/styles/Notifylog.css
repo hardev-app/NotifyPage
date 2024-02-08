@@ -46,7 +46,7 @@
     font-family: var(--font-family);
     font-size: 16px;
 }
-.subtitle h5 {
+.subtitle h4 {
     text-align: center;
     margin-top: 36px;
 }
@@ -79,12 +79,12 @@
     padding: 16px;
     margin: auto 0;
 }
-.content-presentation .content-text h3 { 
+.content-presentation .content-text h2 { 
     font-weight: 700;
     padding-top: 55px;
     color: var(--color-text);
 }
-.content-text h4 {
+.content-text h3 {
     font-weight: 600;
     padding-bottom: 12px;
 }
@@ -97,6 +97,7 @@
 }
 .action a img {
     width: 16px;
+    height: 16px;
     margin: 0 12px;
 }
 .content-presentation .content-image img,
@@ -112,7 +113,7 @@
     }
 }
 @media (max-width: 710px) {
-    .content-presentation .content-text h3 { 
+    .content-presentation .content-text h2 { 
         padding-top: 4px;
     }
     .content-presentation,

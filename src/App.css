@@ -8,12 +8,14 @@
   font-style: normal;
   font-weight: 500;
   src: url('./fonts/Ubuntu-Bold.woff2') format('woff2');
+  font-display: swap;
 }  
 @font-face {
   font-family: 'Ubuntu-Bold';
   font-style: normal;
   font-weight: 900;
   src: url('./fonts/Ubuntu-Regular.woff2') format('woff2');
+  font-display: swap;
 }  
 :root {
   --section-sm: 760px;
