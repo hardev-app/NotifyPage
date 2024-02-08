@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.43f01d33.css",
-    "main.js": "/static/js/main.319d886d.js",
+    "main.css": "/static/css/main.a088d43d.css",
+    "main.js": "/static/js/main.4d2ee3e3.js",
+    "static/media/cover-notifypug.webp": "/static/media/cover-notifypug.146df85e23429b87215a.webp",
     "static/media/Ubuntu-Regular.woff2": "/static/media/Ubuntu-Regular.b1b8dc358fe78d62ab11.woff2",
     "static/media/Ubuntu-Bold.woff2": "/static/media/Ubuntu-Bold.95cab9be8aa965e5f7ad.woff2",
     "static/media/notify-3.webp": "/static/media/notify-3.1c07b7e0228149e1d08c.webp",
     "static/media/notify-1.webp": "/static/media/notify-1.96ad09e694aac89df1ef.webp",
-    "static/media/cover.webp": "/static/media/cover.029ab490c3c9f3a429e0.webp",
     "static/media/logo.png": "/static/media/logo.6209ebad1fc7e8791e91.png",
     "static/media/notify-2.webp": "/static/media/notify-2.affae05e0e507003d3f5.webp",
     "index.html": "/index.html",
     "static/media/icon-google.svg": "/static/media/icon-google.9a57d49ea7c442b10f6aa3810620aed6.svg",
     "static/media/icon-arrow.svg": "/static/media/icon-arrow.c5ec2ce7e7c3c5b3afd5926441e49325.svg",
-    "main.43f01d33.css.map": "/static/css/main.43f01d33.css.map",
-    "main.319d886d.js.map": "/static/js/main.319d886d.js.map"
+    "main.a088d43d.css.map": "/static/css/main.a088d43d.css.map",
+    "main.4d2ee3e3.js.map": "/static/js/main.4d2ee3e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.43f01d33.css",
-    "static/js/main.319d886d.js"
+    "static/css/main.a088d43d.css",
+    "static/js/main.4d2ee3e3.js"
   ]
 }
