@@ -33,12 +33,12 @@ const NotifyPug = () => {
               <div className="section-header">
 
                 <div className="title">
-                  <h1 className="font-bold tracking-tight">NotifyPug</h1>
+                  <h1 className="font-bold tracking-tight">Administrador de Notificaciones</h1>
                 </div>
                 
                 <div className="content-presentation">
                   <div className="content-text full-50">
-                    <h2>Bienvenido a tu nueva herramienta imprescindible para estar al tanto de las notificaciones recibidas de tus cuentas favoritas en Instagram.</h2>
+                    <h2>Bienvenido a NotifyPug, tu nueva herramienta imprescindible para estar al tanto de las notificaciones recibidas de tus cuentas favoritas en Instagram.</h2>
                     <p>Descarga directamente a tu celular.</p>
                     <div className="action">
                       <a className="button" href="https://play.google.com/store/apps/details?id=com.hardev.instalog">
