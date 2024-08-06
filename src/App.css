@@ -180,20 +180,6 @@ article {
 .section-lg {
   width: var(--section-lg);
 }
-.section-full {
-  width: 100%;
-}
-.full-50 {
-  width: 50%;
-}
-@media (max-width: 1024px) {
-  
-}
-@media (max-width: 710px) {
-  .full-50 {
-    width: 100%;
-  }
-}
 /* ******************** Button CSS ******************** */
 .button {
   display: inline-flex;
