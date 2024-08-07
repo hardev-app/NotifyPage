@@ -101,7 +101,7 @@ const PrivacyPolicy = () => {
           <ul className='block list-disc'>
             <li className='list-item ml-4'><p className='block text-base pb-1'>By email: hardev.app@gmail.com</p></li>
           </ul>
-          <img className='mx-auto' src={imgLogo} alt="Logo NotifyPug" />
+          <img loading='lazy' className='mx-auto' src={imgLogo} alt="Logo NotifyPug" />
         </div>
       </div>
     </div>

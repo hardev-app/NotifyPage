@@ -23,14 +23,14 @@ const NotifyPug = () => {
                 <p className='pt-2'>Descarga directamente a tu celular.</p>
                 <div className='text-center pt-7'>
                   <a className='button' href='https://play.google.com/store/apps/details?id=com.hardev.instalog'>
-                    <img className='w-4 h-4 my-0 mx-3' src={IconGoogle} alt='icon-google'/>
+                    <img loading='lazy' className='w-4 h-4 my-0 mx-3' src={IconGoogle} alt='icon-google'/>
                       Google Play
-                    <img className='w-4 h-4 my-0 mx-3' src={IconArrow} alt='icon-arrow'/>
+                    <img loading='lazy' className='w-4 h-4 my-0 mx-3' src={IconArrow} alt='icon-arrow'/>
                   </a>
                 </div>
               </div>
               <div className='w-full md:w-1/2 m-auto p-12 h-auto md:p-8'> 
-                <img className='w-full h-auto bg-color-block rounded-xl border-2 border-color-block' src={CoverNotify} alt='cover-NotifyPug'/>
+                <img loading='lazy' className='w-full h-auto bg-color-block rounded-xl border-2 border-color-block' src={CoverNotify} alt='cover-NotifyPug'/>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const NotifyPug = () => {
 
         <div className='flex flex-row mt-12 sm-max:flex-col-reverse'>
           <div className='w-full p-4 md:w-1/2'>
-            <img className='w-[%90] h-full m-auto bg-color-block rounded-xl border-2 border-color-block' src={Notify1} alt='step-1'/>
+            <img loading='lazy' className='w-[%90] h-full m-auto bg-color-block rounded-xl border-2 border-color-block' src={Notify1} alt='step-1'/>
           </div>
           <div className='w-full p-4 my-auto mx-0 md:w-1/2'>
             <h3 className='font-semibold pt-3'>Lista Personalizada</h3>
@@ -52,13 +52,13 @@ const NotifyPug = () => {
             <p className='pt-2'>Explora el contenido detallado de cada notificación con un solo toque.</p>
           </div>
           <div className='w-full p-4 md:w-1/2'>
-            <img className='w-[%90] h-full m-auto bg-color-block rounded-xl border-2 border-color-block' src={Notify2} alt='step-2'/>
+            <img loading='lazy' className='w-[%90] h-full m-auto bg-color-block rounded-xl border-2 border-color-block' src={Notify2} alt='step-2'/>
           </div>
         </div>
 
         <div className='flex flex-row mt-12 sm-max:flex-col-reverse'>
           <div className='w-full p-4 md:w-1/2'>
-            <img className='w-[%90] h-full m-auto bg-color-block rounded-xl border-2 border-color-block' src={Notify3} alt='step-3'/>
+            <img loading='lazy' className='w-[%90] h-full m-auto bg-color-block rounded-xl border-2 border-color-block' src={Notify3} alt='step-3'/>
           </div>
           <div className='w-full p-4 my-auto mx-0 md:w-1/2'>
             <h3 className='font-semibold pt-3'>Acceso Rápido al Perfil</h3>
@@ -77,9 +77,9 @@ const NotifyPug = () => {
           <h4 className='text-center mt-9'>Descarga ahora y mantente conectado con tus influencers, amigos y contenidos favoritos.</h4>
           <div className='text-center'>
             <a className='button' href='https://play.google.com/store/apps/details?id=com.hardev.instalog'>
-              <img className='w-4 h-4 my-0 mx-3' src={IconGoogle} alt='icon-google'/>
+              <img loading='lazy' className='w-4 h-4 my-0 mx-3' src={IconGoogle} alt='icon-google'/>
                 Google Play
-              <img className='w-4 h-4 my-0 mx-3' src={IconArrow} alt='icon-arrow'/>
+              <img loading='lazy' className='w-4 h-4 my-0 mx-3' src={IconArrow} alt='icon-arrow'/>
             </a>
           </div>
         </div>

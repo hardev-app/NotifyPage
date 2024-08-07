@@ -33,7 +33,7 @@ const TermsAndConditions = () => {
             </li>
           </ul>
           <p className='block text-base pb-1'>Any unauthorized use of the App for purposes inconsistent with these Terms will be subject to appropriate action and may result in termination of use of the App.</p>
-          <img className='mx-auto' src={imgLogo} alt="Logo NotifyPug" />
+          <img loading='lazy' className='mx-auto' src={imgLogo} alt="Logo NotifyPug" />
         </div>
       </div>
     </div>
