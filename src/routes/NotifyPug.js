@@ -8,8 +8,8 @@ import IconArrow from '../images/icon-arrow.svg'
 
 const NotifyPug = () => {
   return (
-    <section className='section-md'>
-      <article>   
+    <section className='max-w-[992px] mx-auto px-1'>
+      <article className='overflow-hidden my-0'>   
 
         <div className='flex flex-col justify-center items-center m-auto text-center relative'>
           <div className='w-screen h-screen sm-max:hidden sm-max:invisible'></div>

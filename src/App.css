@@ -18,19 +18,10 @@
   font-display: swap;
 }  
 :root {
-  --section-sm: 760px;
-  --section-md: 992px;
-  --section-lg: 1280px;
-
   --main-top: 0rem;
   --main-bottom: 0rem;
 
-  --block-border-radius: 12px;
-
-  --color1: #204b5e;
   --color2: #426b65;
-  --color3: #baab6a;
-  --color4: #fbea80;
   --color5: #fdfac7;
 
   --color-background: #ffffff;
@@ -144,41 +135,6 @@ nav ul {
 main {
   margin-top: var(--main-top);
   margin-bottom: calc(2 * var(--main-bottom));
-}
-span {
-  color: var(--color3);
-}
-strong {
-  font-family: var(--font-family-bold);
-  font-weight: 600;
-}
-.highlight {
-  font-family: var(--font-family-bold);
-  font-weight: 800;
-  font-style: italic;
-  color: var(--color4) !important;
-}
-article {
-  overflow: hidden;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-/* ******************** Container ******************** */
-.section-lg,
-.section-md,
-.section-sm {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 5px;
-  padding-left: 5px;
-  width: var(--section-sm);
-  max-width: 96%;
-}
-.section-md {
-  width: var(--section-md);
-}
-.section-lg {
-  width: var(--section-lg);
 }
 /* ******************** Button CSS ******************** */
 .button {

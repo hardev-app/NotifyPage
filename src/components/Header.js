@@ -32,7 +32,7 @@ const Header = () => {
                 <Dialog.Panel className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
                     <div className='flex items-center justify-between'>
                         <a href={PathConstants.HOME} className='-m-1.5 p-1.5'>
-                            <span className='sr-only'>Hardev App</span>
+                            <span className='sr-only text-color3'>Hardev App</span>
                         </a>
                         <button type='button' className='-m-2.5 rounded-md p-2.5 text-gray-700' aria-label='Close menu'
                             onClick={() => setMobileMenuOpen(false)} >
